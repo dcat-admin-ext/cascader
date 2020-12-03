@@ -8,10 +8,10 @@ use Dcat\Admin\Admin;
 class CascaderServiceProvider extends ServiceProvider
 {
 	protected $js = [
-        'js/index.js',
+        'js/cascader.js',
     ];
 	protected $css = [
-		'css/index.css',
+		'css/cascader.css',
 	];
 
 	public function register()
@@ -24,7 +24,7 @@ class CascaderServiceProvider extends ServiceProvider
 		parent::init();
 
 		//
-		
+
 	}
 
 	public function settingForm()
