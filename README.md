@@ -41,29 +41,29 @@ $('#domId').cascader({
 	data: data
 });
 ```
-级联选择在初始化的时候回去读取input的value进行初始化
+级联选择在初始化的时候会去读取 input 的 value 进行初始化
 
 # Config
 
 ### displayField 
 
-配置显示的字段名称，默认值为'name'
+配置显示的字段名称，默认值为 `name`
 
 ### valueField 
 
-配置提交的字段名称，默认值为'id'
+配置提交的字段名称，默认值为 `id`
 
 ### separator 
 
-配置显示字段的连接符，默认值为'/'
+配置显示字段的连接符，默认值为 `/`
 
 ### data
 
-级联菜单的数据，含有子项的需要有chidlren字段, 默认值为[]
+级联菜单的数据，含有子项的需要有 `chidlren` 字段, 默认值为 `[]`
 
 ### value
 
-配置初始化时的默认值，还可以通过设置inpt的value的方式设置默认值
+配置初始化时的默认值，还可以通过设置 input 的 value 的方式设置默认值
 
 # Api
 
@@ -78,7 +78,7 @@ $('#domId').cascader('clearValue');
 
 ### val
 
-获取或设置vlaue，不传递参数时为获取value，传递参数时为设置value
+获取或设置 vlaue，不传递参数时为获取 value，传递参数时为设置 value
 
 ```javascript
 // 获取设置的值
